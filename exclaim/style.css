@@ -417,7 +417,7 @@ main h2 {
 	border: 2px solid #FF0092;
 }
 
-#right_column .item:nth-child(4n) {
+#right_column a:nth-child(4n) .item {
 	margin-right: 0;
 }
 
@@ -426,18 +426,21 @@ main h2 {
 	margin-bottom: 19px;
 }
 
-.item .product_title a {
+.item .product_title {
+	display: block;
+	margin-bottom: 12px;
+	text-align: center;
 	font-family: 'BaskervilleCyrLTStd-Upright';
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 15px;
 }
 
-.item .product_title {
+/*.item .product_title {
 	display: block;
 	margin-bottom: 12px;
 	text-align: center;
-}
+}*/
 
 .item .price {
 	display: block;
